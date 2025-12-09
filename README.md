@@ -6,10 +6,11 @@ Primary source: the Pushshift Reddit dataset, available on Academic Torrents: ht
 Timeframe: 6 months – January 2025 to June 2025
 List of subreddits: r/NeutralPolitics, r/PoliticalDebate, r/PoliticalDiscussion, r/AskReddit, r/Askpolitics, r/UkraineWarVideoReport, r/UkraineConflict, r/Conservative, r/Liberal, r/politics, r/Democrats, r/Usanews, r/ukraine, r/CringeTiktoks, r/changemyview, r/Antitrump, r/Complaints, r/Republican, r/trump, r/AskTrumpSupporters.
 
-`see_fields.py` – file for checking what parameters are available for every comment;
-`concat_all.py` – file for merging all months to one dataset.
-`comments_cleanup.ipynb` – some basic data checking and clean up;
-`eda.ipynb` – final file with analysis, visualisations and conclusions;
+File description
+1. `see_fields.py` – file for checking what parameters are available for every comment;
+2. `concat_all.py` – file for merging all months to one dataset.
+3. `comments_cleanup.ipynb` – some basic data checking and clean up;
+4. `eda.ipynb` – final file with analysis, visualisations and conclusions;
 
 #### These manipulations need to be performed before final EDA on the raw data downloaded from Academic Torrents: 
 To decompress the received files from `.zst`, filter them by topic or subreddit and export them to CSV or JSON. For this task we use the scripts from https://github.com/SanGreel/PushshiftDumps. You can download the prepared dataset from https://drive.google.com/ for EDA.
